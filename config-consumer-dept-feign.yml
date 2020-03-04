@@ -19,8 +19,6 @@ eureka:
 feign:
   hystrix:
     enabled: true
-
----
 ---
 spring:
   profiles: test
