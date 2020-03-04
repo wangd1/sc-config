@@ -3,7 +3,7 @@ spring:
     active: dev
 ---
 spring:
-  profile: dev
+  profiles: dev
 server:
   port: 9000
 
@@ -43,7 +43,7 @@ info:
 
 ---
 spring:
-  profile: test
+  profiles: test
 server:
   port: 9000
 
