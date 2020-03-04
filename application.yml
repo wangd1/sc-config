@@ -1,0 +1,15 @@
+spring:
+  profiles: dev
+    active:
+
+---
+spring:
+  profiles: dev
+  application:
+    name: sc-config-dev
+
+---
+spring:
+  profiles: test
+  application:
+    name: sc-config-test
